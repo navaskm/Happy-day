@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  margin-bottom: 9px;
+  padding: 0;
+  font-family: "Raleway", system-ui;
+}
+
+.banner{
+  background-image: url('https://images.pexels.com/photos/128234/pexels-photo-128234.jpeg?cs=srgb&dl=pexels-etha-34545-128234.jpg&fm=jpg');
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+}
+
+.banner-handling{
+  margin-top: 250px;
+}
+
+.button{
+  background-color: black !important;
+}
+.button:hover{
+  background-color: #a1628c5b !important;
+  color: black !important;
+}
+
+.bolg-image{
+  background-image: url('https://w0.peakpx.com/wallpaper/960/845/HD-wallpaper-nature-landscape-landscape-nature-thumbnail.jpg');
+  width: 50%;
+  height: 30vh;
+  background-position: center;
+}
+
+.more-button{
+  color: rgb(11, 115, 146) !important; 
+}
+.more-button:hover{
+  background-color: #e735ac5b !important;
+}
+
+.link-sites:hover{
+  text-decoration: underline;
+  color: rgb(184, 70, 70);
+  cursor: pointer;
+}
